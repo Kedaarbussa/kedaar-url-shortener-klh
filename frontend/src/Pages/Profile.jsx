@@ -33,7 +33,7 @@ export default function Profile() {
     <Container size="responsive"
             style={{
               backgroundColor:"cyan",
-              borderRadius: "50px",
+              borderRadius: "40px",
               padding: "20px",
               paddingTop: "10px",
             }} >
