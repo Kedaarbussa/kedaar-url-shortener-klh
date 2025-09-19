@@ -7,5 +7,5 @@ import { getUserProfile } from '../controllers/userController.js';
 const userRouter = Router();
 
 
-userRouter.get("/profile/me",isLoggedIn,getUserProfile);
+userRouter.get("/me",isLoggedIn,getUserProfile);
 export default userRouter;
